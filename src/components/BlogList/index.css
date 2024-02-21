@@ -1,1 +1,6 @@
-/* Write your CSS code here */
+.blog-list {
+  list-style-type: none;
+  padding-top: 0;
+  margin-bottom: 13px;
+  width: 75%;
+}
