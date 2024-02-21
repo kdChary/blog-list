@@ -1,7 +1,8 @@
 import './index.css'
 
 const BlogItem = props => {
-  const {title, description, publishedDate} = props
+  const {blogDetails} = props
+  const {title, description, publishedDate} = blogDetails
 
   return (
     <li className="blog-item">
