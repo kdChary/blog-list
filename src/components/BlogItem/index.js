@@ -7,7 +7,7 @@ const BlogItem = props => {
   return (
     <li className="blog-item">
       <div className="blog-item-heder">
-        <p className="post-title">{title}</p>
+        <h3 className="post-title">{title}</h3>
         <p className="post-time">{publishedDate}</p>
       </div>
       <p className="post-description">{description}</p>
